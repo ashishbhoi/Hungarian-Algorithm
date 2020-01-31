@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HungarianAlgorithm" />
+        <module name="hungarian-algorithm" />
       </profile>
     </annotationProcessing>
   </component>
