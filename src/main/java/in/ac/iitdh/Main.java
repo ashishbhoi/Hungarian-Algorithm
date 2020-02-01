@@ -30,11 +30,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         int[][] dm = new int[n][n];
-        int[][] copy = new int[n][n];
 
         for (int i = 0; i < n; i++)
             for (int j = 0; j < n; j++)
                 dm[i][j] = sc.nextInt();
+        sc.close();
 
 
         long time = System.currentTimeMillis(); // Start time recording
