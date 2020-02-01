@@ -20,7 +20,7 @@ public class HungarianTest {
                 {2000, 4000, 2500}
         };
 
-        int[] Answer = {1, 2, 0};
+        int[] Answer = {1, 2, 1};
 
         Hungarian hungarian = new Hungarian(matrixInput);
 
